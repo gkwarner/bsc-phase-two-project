@@ -29,7 +29,7 @@ From the house data we gatherd 12 features related to price containing 21597 row
 ## Floors and Price Correlation
 
 ![Floors_and_Price_Correlation](./images/Floors_and_Price_Correlation.png)
-#### Price increses with the addition of floors however a 2 story house is more expensive then a two story house.
+#### Price increses with the addition of floors however a 2 story house is more expensive then a three story house.
 ## Grade and Price Correlation
 
 ![Grade_and_Price_Correlation](./images/Grade_and_Price_Correlation.png)
