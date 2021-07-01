@@ -44,4 +44,4 @@ From the house data we gatherd 12 features related to price containing 21597 row
 
 ## Conclusion
 
-Our model preforms well in prices from 385000-535000 dollars but has high error with prices from 77999-322000 and 645000-7700000 dollars.  sqft_living, bedrooms, and grade are have high correlations with price.
+Our model preforms well in prices from 385000-535000 dollars but has high error with prices from 77999-322000 and 645000-7700000 dollars.  sqft_living, bedrooms, and grade are have high correlations with price.  To get to this model from previous models we removed the sqft_living15 and sqft_above in order to make the model less overfit.  We also cleaned the data by converting data types to integers, removing null values, removing 0's, and removing the data from price that is over 2 standard deviations away from the mean.  These were done to get the lowest error and the least differnce between the test error and training error. 
